@@ -148,32 +148,37 @@
 //console.log(data.kids);      1
 
 
-var lowercase = ['a', 'b', 'c', 'd', 'e']
-var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-function getRandom(charSet) {
-    return charSet[Math.floor(Math.random() * charSet.length)];
-}
+//----------------------------------------------------------------
 
 
-function genPass(data) {
-    var result = '';
 
-        for (var i = 0; i < data.passwordLength; i++) {
-            result += getRandom(lowercase);
-        }
+// var lowercase = ['a', 'b', 'c', 'd', 'e']
+// var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-    return result;
-}
+// function getRandom(charSet) {
+//     return charSet[Math.floor(Math.random() * charSet.length)];
+// }
 
 
-var options = {
-    passwordLength: 35;
-}
+// function genPass(data) {
+//     var result = '';
 
-var pass = genPass(options);
+//         for (var i = 0; i < data.passwordLength; i++) {
+//             result += getRandom(lowercase);
+//         }
 
-console.log(pass)
+//     return result;
+// }
+
+
+// var options = {
+//     passwordLength: 35;
+// }
+
+// var pass = genPass(options);
+
+// console.log(pass)
 
 
 
